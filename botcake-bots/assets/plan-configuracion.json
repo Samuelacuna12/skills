@@ -1,0 +1,37 @@
+{
+  "tipo": "plan de diseño, no importación Botcake",
+  "canal": "POR_DEFINIR",
+  "pagina": "POR_DEFINIR",
+  "objetivo": "POR_DEFINIR",
+  "disparador": {
+    "evento": "keyword",
+    "coincidencia": "exacta",
+    "valor": "COTIZAR",
+    "flujo_destino": "F00_Entrada"
+  },
+  "campos_propuestos": [
+    "interes",
+    "ciudad",
+    "estado_comercial",
+    "atencion_humana",
+    "baja_mensajes"
+  ],
+  "exclusiones": [
+    "baja_mensajes",
+    "atencion_humana"
+  ],
+  "salidas": [
+    "convertido",
+    "humano",
+    "baja"
+  ],
+  "integraciones": [],
+  "validacion": {
+    "preview": false,
+    "disparador_real": false,
+    "captura": false,
+    "humano": false,
+    "baja": false,
+    "sin_duplicados": false
+  }
+}

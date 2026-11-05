@@ -1,0 +1,4 @@
+interface:
+  display_name: "Botcake Bots"
+  short_description: "Crea, configura y depura bots y agentes IA en Botcake"
+  default_prompt: "Usa $botcake-bots para diseñar, configurar y probar un bot de Botcake para mi negocio."
